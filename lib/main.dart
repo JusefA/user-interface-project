@@ -82,7 +82,7 @@ class _RestaurantListState extends State<RestaurantList> {
           children: [
             Image.asset(
               'assets/images/logo.jpg',
-              height: 50, 
+              height: 50,
             ),
             const SizedBox(height: 8),
             const Text('Restaurants'),
@@ -140,7 +140,8 @@ class _RestaurantListState extends State<RestaurantList> {
                       restaurant: restaurant,
                       addToCart: () {
                         setState(() {
-                          _cartItems.add(CartItem(menuItem: restaurant.menu[0], quantity: 1));
+                          _cartItems.add(CartItem(
+                              menuItem: restaurant.menu[0], quantity: 1));
                         });
                       },
                     ),
@@ -154,7 +155,6 @@ class _RestaurantListState extends State<RestaurantList> {
     );
   }
 }
-
 
 class RestaurantDetails extends StatelessWidget {
   final Restaurant restaurant;
@@ -194,7 +194,7 @@ class RestaurantDetails extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Location:',
+                    'Location: ',
                     style: TextStyle(fontSize: 16, color: Colors.black),
                   ),
                   const SizedBox(height: 16),
@@ -247,7 +247,8 @@ class CartPage extends StatelessWidget {
           return ListTile(
             title: Text(cartItem.menuItem.name),
             subtitle: Text('Quantity: ${cartItem.quantity}'),
-            trailing: Text('Price: \$${cartItem.menuItem.price * cartItem.quantity}'),
+            trailing:
+                Text('Price: \$${cartItem.menuItem.price * cartItem.quantity}'),
           );
         },
       ),

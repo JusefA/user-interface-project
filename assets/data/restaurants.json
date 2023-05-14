@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "ravintola yolo",
+      "name": "Ravintola Yolo",
       "description": "description",
       "image": "assets/images/ravintola_yolo.jpg",
       "imagemenu": "assets/images/imagemenu.jpg",
@@ -27,9 +27,9 @@
     },
     {
       "id": 2,
-      "name": "Restaurant 2",
+      "name": "Ravintola Laser",
       "description": "description",
-      "image": "assets/images/restaurant2.jpg",
+      "image": "assets/images/ravintola_laser.jpg",
       "imagemenu": "assets/images/imagemenu.jpg",
       "menu": [
         {
@@ -39,8 +39,31 @@
           "price": 12.99,
           "image": "assets/images/item1.jpg",
           "imagemenu": "assets/images/imagemenu.jpg"
-          
-          
+        },
+        {
+          "id": 4,
+          "name": "Item 4",
+          "description": "description",
+          "price": 9.99,
+          "image": "assets/images/item2.jpg",
+          "imagemenu": "assets/images/imagemenu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lut Buffet",
+      "description": "description",
+      "image": "assets/images/ravintola_buffet.jpg",
+      "imagemenu": "assets/images/imagemenu.jpg",
+      "menu": [
+        {
+          "id": 3,
+          "name": "Item 3",
+          "description": "description.",
+          "price": 12.99,
+          "image": "assets/images/item1.jpg",
+          "imagemenu": "assets/images/imagemenu.jpg"
         },
         {
           "id": 4,

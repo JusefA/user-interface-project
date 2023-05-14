@@ -1,4 +1,4 @@
-name: uifinal123
+name: user_interface_project
 description: A new Flutter project.
 
 publish_to: 'none'
@@ -22,14 +22,11 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+
   uses-material-design: true
   assets:
     - assets/
-    - assets/images/restaurant1.jpg
-    - assets/images/restaurant2.jpg
-    - assets/images/item1.jpg
-    - assets/images/item2.jpg
-    - assets/images/ravintola_yolo.jpg
-    - assets/data/restaurants.json
-    - assets/images/imagemenu.jpg
-    - assets/images/logo.jpg
+    - assets/images/
+    - assets/data/
+
+    
